@@ -143,14 +143,14 @@ main {
     height: auto;
     padding: 15px;
     width: 150px;
-    background-color: #1abc9c;
-    color: #ecf0f1;
+    background-color: #ecf0f1;
+    color: #2980b9;
     box-shadow: 0px 2px 2px #34495e;
     border-radius: 3px;
 }
 
 .tourist-book:hover {
-
+    cursor: pointer;
 }
 
 /*  Tourist Offer Section CSS */
@@ -308,7 +308,7 @@ main {
     background-color: #2980b9;
     display: flex;
     align-items: center;
-    padding: 60px;
+    padding: 100px;
     color: #fff;
     justify-content: space-between;
 }
@@ -342,10 +342,99 @@ main {
 }
 
 
-footer {
+/* footer {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-}
+} */
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background-color:#40739e ;
+
+    }
+    
+    .footer > * {
+    flex:  1 100%;
+    }
+    
+    .l-footer {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+    font-family: 'Lobster';
+    }
+    
+    h2 {
+    font-weight: 400;
+    font-size: 15px;
+    }
+    
+    .footer ul {
+    list-style: none;
+    padding-left: 0;
+    color: #fff;
+    }
+    
+    .footer li {
+    line-height: 2em;
+    color: #fff;
+    }
+    
+    .footer a {
+    text-decoration: none;
+    color: #fff;
+    }
+    
+    .r-footer {
+    display: flex;
+    flex-flow: row wrap;
+    }
+    
+    .r-footer > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+    }
+    
+    .box a {
+    color: #fff;;
+    }
+    
+    .h-box {
+    column-count: 2;
+    column-gap: 1.25em;
+    }
+    
+    .b-footer {
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+    }
+    
+    .l-footer p {
+    padding-right: 20%;
+    color: #fff;
+    }   
+    
+    @media screen and (min-width: 600px) {
+    .r-footer > * {
+    flex: 1;
+    }
+    
+    .features {
+    flex-grow: 2;
+    }
+    
+    .l-footer {
+    flex: 1 0px;
+    }
+    
+    .r-footer {
+    flex: 2 0px;
+    }
+    }
+    
