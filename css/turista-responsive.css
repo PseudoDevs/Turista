@@ -1,0 +1,121 @@
+@media only screen and (max-width: 920px) {
+
+    .tourist-heading {
+        font-size: 30pt;
+    }
+
+    .tourist-subtitle {
+        width: 100%;
+    }
+
+    .tourist-book {
+        margin-top: 5%;
+    }
+
+
+    .tourist-offer {
+        margin-top: -20%;
+        flex-direction: column;
+    }
+    
+    
+    .tourist-about {
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        
+    }
+
+    .about-turista {
+        padding: 0px;
+        
+    }
+
+    .tourist-about .about-column {
+        width: 100%;
+    }
+    
+
+    .about-column img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+      flex-direction: row;
+    }
+
+    .nav-brand {
+        font-size: 25pt;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .btn-contact {
+        display: none;
+    }
+
+    .tourist-row {
+        
+    }
+
+    .tourist-offer {
+        flex-direction: column;
+    }
+  }
+
+
+  @media only screen and (max-width: 768px) {
+
+    .tourist-heading {
+        font-size: 30pt;
+    }
+
+    .tourist-subtitle {
+        width: 100%;
+    }
+
+    .tourist-book {
+        margin-top: 5%;
+    }
+
+
+    .tourist-offer {
+        margin-top: -20%;
+        flex-direction: column;
+    }
+
+    .offer-columns {
+
+    }
+
+    .tourist-about {
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        
+    }
+
+    .about-turista {
+        padding: 0px;
+        
+    }
+
+    .tourist-about .about-column {
+        width: 100%;
+    }
+    
+
+    .about-column img {
+        width: 100%;
+    }
+}
